@@ -22,12 +22,10 @@
     </head>
     <body>
         <!-- the termynal container -->
-        <div id="termynal" data-termynal>
-            <span data-ty="input">pip install twitch</span>
+        <div id="termynal" data-ty-lineDelay=3000 data-ty-typeDelay=180 data-termynal>
+            <span data-ty="input">pip install -r requirements.txt</span>
             <span data-ty="progress"></span>
             <span data-ty>Successfully installed twitch</span>
-            <span data-ty></span>
-            <span data-ty="input">pip install a bunch of other shit</span>
             <span data-ty="progress"></span>
             <span data-ty>Successfully installed a bunch of other shit</span>
             <span data-ty></span>
@@ -35,12 +33,10 @@
             <span data-ty="input" data-ty-prompt=">>>">import twitch</span>
             <span data-ty="input" data-ty-prompt=">>>">import a  bunch of other shit as cmptrbot</span>
             <span data-ty="input" data-ty-prompt=">>>">init_stream = twitch.init('cmptr_', 'if you this this is my real Passowrd, it just might be')</span>
-            <span data-ty="input" data-ty-prompt=">>>">init_music = stream(bop=True)</span>
-            <span data-ty="input" data-ty-prompt=">>>">print(init_music.other_shit())</span>
-            <span data-ty>['Use chat points to add effects to the tunes']</span>
+            <span data-ty="input" data-ty-prompt=">>>">init_bot = cmptrbot(bitch="Boss")</span>
+            <span data-ty="input" data-ty-prompt=">>>">init_music = stream(bop=True, volume=11, because="It goes to 11")</span>
             <span data-ty="input" data-ty-prompt=">>>">exit</span>
-            <span data-ty="input">./init.sh</span>
-            <span data-ty="progress"></span>
+            <span data-ty></span>
         </div>
 
         <!-- include and initialise termynal.js -->
