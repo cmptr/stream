@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>termynal.js example</title>
+        <meta charset="utf-8">
+        <!-- include the termynal stylesheet -->
+        <link rel="stylesheet" href="termynal.css">
+        <!-- some custom styles for the page -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a1e24;
+                width: 100%;
+                min-height: 100vh;
+                display: -webkit-box; display: -ms-flexbox; display: flex;
+                -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+                -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+                -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- the termynal container -->
+        <div id="termynal" data-termynal>
+            <div id="termynal" data-termynal>
+                <span data-ty="input" data-ty-prompt="###">loaded plugins</span>
+                <span data-ty="input" data-ty-prompt="###">ensure bot loaded and mod</span>
+                <span data-ty="input" data-ty-prompt="###">start giveaway and interactions</span>
+                <span data-ty="input" data-ty-prompt="###">adjust audio and tune for 11</span>
+                <span data-ty="input" data-ty-prompt="###">fetch latest headlines</span>
+                <span data-ty="input" data-ty-prompt="###">stop w the identity politics and intersectionality pls</span>
+                <span data-ty="input" data-ty-prompt="###">be lovely. have fun. your life matters.</span>
+            </div>
+        </div>
+
+        <!-- include and initialise termynal.js -->
+        <script src="termynal.js" data-termynal-container="#termynal"></script>
+    </body>
+</html>
